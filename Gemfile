@@ -5,6 +5,7 @@ ruby '2.7.1'
 
 gem 'aws-sdk-s3', require: false
 gem 'dotenv-rails'
+gem 'activerecord-reset-pk-sequence'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
 # Use postgresql as the database for Active Record
