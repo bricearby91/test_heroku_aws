@@ -3,6 +3,7 @@
 <p>Bienvenue sur la page d'ajout d'un avatar pour le produit portant l'id : <%=@product.id%></p>
 <h3>Image actuelle</h3>
 <%if @product.picture.attached?%>
+<p>L'image existe bel et bien</p>
   <%= image_tag @product.picture, alt: 'picture' %>
 <%else%>
   <p>=== Il n'y a pas encore d'image liée à ce produit ===</p>

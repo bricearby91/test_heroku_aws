@@ -1,9 +1,12 @@
 <h1> Hello </h1>
+<h1> Hello </h1>
+<h1> Hello </h1>
+
 
 <br>
 <hr>
 <% Product.all.each_with_index do |product, index| %>
-<p>	Chaton numéro <%= index %> :</p>
+<p>	Chaton numéro <%= index+1 %> :</p>
 <p> Nom : <%= product.name%> <p>
 <p> Prix : <%= product.price%> <p>
 	<hr>
