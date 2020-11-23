@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get 'products/show'
+  get 'products/index'
   get 'pictures/create'
   get 'pictures/new'
   get 'products/new'
